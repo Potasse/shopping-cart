@@ -1,12 +1,13 @@
 
-var removeCartItemButtons = document.getElementsByClassName('btn-danger');
-console.log(removeCartItemButtons);
+var removeCartItemButtons = document.getElementsByClassName('btn-danger')
 
-for( var i = 0; i < removeCartItemButtons.length; i++){
+for(var i = 0; i < removeCartItemButtons.length; i++){
 
     var  button = removeCartItemButtons[i]
-    button.addEventListener('click', function() {
+    button.addEventListener('click', teste())
+}
 
-        console.log('clicked')
-    })
+ function teste(){
+
+    console.log("clicked")
 }
